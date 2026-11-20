@@ -3,7 +3,7 @@ import numpy as np
 from groq import Groq
 from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
-from pathlib import path
+from pathlib import Path
 #load pdfs
 def load_pdf (pdf_path):
   reader = PdfReader(str(pdf_path))
